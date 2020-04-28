@@ -1,0 +1,15 @@
+.profilepicture {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    float: left;
+}
+
+.navBR {
+    background-color: #66CEE8;
+}
+
+.resume-body {
+    background-color: black
+}
