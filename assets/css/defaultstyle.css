@@ -1,9 +1,12 @@
 .profilepicture {
     border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
     height: 100px;
     width: 100px;
     border-color: white;
-    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
 }
 
 .navBR {
@@ -29,4 +32,19 @@
     text-align: center;
     color: #E02B70;
     
+}
+
+.name {
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+}
+
+.firstline {
+   background-color: white;
+   width: 150px;
+   height: 2px;
+   margin-left: 25px;
+   margin-top: 80px;
 }
