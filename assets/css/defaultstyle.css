@@ -1,3 +1,7 @@
+.resume-body {
+    background-color: black;
+}
+
 /* Profile Pic & Name */
 
 .profilepic {
@@ -8,4 +12,53 @@
     margin: auto;
     display: block;
     transform: translateY(35px);
+}
+
+.name {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.firsthr {
+    margin-top: -10px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+/* Contacts */
+
+.contacts {
+    color: white;
+    text-align: center;
+}
+
+.contactstuff {
+    color: white;
+}
+
+.secondhr {
+    margin-top: 10px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+/* Projects */
+
+.projects {
+    color: white;
+    text-align: center;
+    transform: translateY(35px);
+}
+
+.thirdhr {
+    margin-top: 45px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 160px;
+    margin-right: 160px;
 }
