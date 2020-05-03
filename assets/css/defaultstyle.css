@@ -1,61 +1,3 @@
-/* Profile MEDIA QUERIES */
-
-@media only screen and (max-width:600px) {
-    .profile {
-        border-radius: 50%;
-        margin-top: 35px;
-        margin-left: 180px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
-
-@media only screen and (min-width:601px) and (max-width:767px) {
-    .profile {
-        border-radius: 50%;
-        margin-top: 35px;
-        margin-left: 200px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:991px) {
-    .profile {
-        border-radius: 50%;
-        margin-top: 35px;
-        margin-left: 15px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width:1199px) {
-    .profile {
-        border-radius: 50%;
-        margin-top: 35px;
-        margin-left: 30px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
-@media only screen and (min-width:1200px) {
-    .profile {
-        border-radius: 50%;
-        margin-top: 35px;
-        margin-left: 46px;
-        border-color: white;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
 /* Navigation Bar */
 
 .navBR {
@@ -85,13 +27,13 @@
 
 }
 
-/* Profile & Media Queries */
+/* Profile Section & Media Queries */
 
 @media only screen and (max-width:600px) {
     .profile {
         border-radius: 50%;
         margin-top: 35px;
-        align-items: center;
+        margin-left: 180px;
         border-color: white;
         border-width: 2px;
         border-style: solid;
@@ -175,14 +117,18 @@
     }
 }
 
+/* Contact Section */
 
-.skills {
-    text-align: center;
-    color: white;
-    margin-left: 20px;
+.contactcontainer {
+    justify-content: center;
 }
 
-.skillsets {
+.contacts {
+    text-align: center;
+    color: white;
+}
+
+.contactstuff {
     color: white;
     float: left;
 }
