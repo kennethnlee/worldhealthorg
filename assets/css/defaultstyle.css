@@ -62,3 +62,79 @@
     margin-left: 160px;
     margin-right: 160px;
 }
+
+.projectstuff {
+    color: white
+}
+
+a.finals{
+   color: white;
+   text-align: center;
+}
+
+.klg {
+    float: right;
+}
+ /* Education */
+
+.fourthhr {
+    margin-top: 0px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.education {
+    color: white;
+    text-align: center;
+}
+
+.school {
+    text-align: center;
+    color: white;
+}
+
+/* Skills */
+
+.fifthhr {
+    margin-top: 45px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.skills{
+    text-align: center;
+    color: white;
+    transform: translateY(35px);
+}
+
+.skillstuff {
+    color: white;
+}
+
+/* Experience */
+
+.experience {
+    text-align: center;
+    color: white;
+}
+
+.sixthhr {
+    margin-top: 0px;
+    display: block;
+    border-top: 2px solid rgba(0, 228, 187,1);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.job {
+    text-align: center;
+    color: white;
+}
+
+.jobstuff {
+    color: white;
+}
