@@ -1,13 +1,62 @@
-.profilepicture {
-    border-radius: 50%;
-    border-width: 2px;
-    border-style: solid;
-    height: 100px;
-    width: 100px;
-    border-color: white;
-    margin-left: 50px;
-    margin-top: 35px;
+/* Profile MEDIA QUERIES */
+
+@media only screen and (max-width:600px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 180px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
 }
+
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 200px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 15px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 30px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 46px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+/* Navigation Bar */
 
 .navBR {
     background-color: #66CEE8;
@@ -21,6 +70,8 @@
     color: #E02B70;
 }
 
+/* Footer */
+
 .footer {
     padding: 40px;
     background: #66CEE8;
@@ -31,20 +82,107 @@
     height: 100px;
     text-align: center;
     color: #E02B70;
-    
+
 }
 
+/* Profile & Media Queries */
+
+@media only screen and (max-width:600px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        align-items: center;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 200px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 15px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 30px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .profile {
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 46px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+/* Name & Media Queries */
 .name {
     color: white;
+    margin-top: 5px;
     text-align: center;
-    float: left;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
-.firstline {
-   background-color: white;
-   width: 150px;
-   height: 2px;
-   margin-left: 25px;
-   margin-top: 80px;
+@media only screen and (max-width:600px) {
+    .name {
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .lee {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .name {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .lee {
+        margin-left: 25px;
+    }
+}
+
+
+.skills {
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.skillsets {
+    color: white;
+    float: left;
 }
