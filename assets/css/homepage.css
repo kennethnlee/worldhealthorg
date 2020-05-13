@@ -1,0 +1,239 @@
+.biglogo {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:576px) {
+    .biglogo {
+        margin-top: 50px;
+    }
+}
+
+.title {
+    padding-top: 20px;
+    color: #66CEE8;
+    text-align: center;
+}
+
+.sans-serif {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+@media screen and (min-width:768px) {
+    .title {
+        font-size: 114px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title {
+        display: none;
+    }
+}
+
+/* Navigation */
+
+.navsections {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .navsections {
+        flex-direction: column;
+    }
+
+    .navwho {
+        justify-content: center !important;
+    }
+}
+
+.navstuff {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color: #E02B70;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.buttonicon {
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+/* About */
+
+.aboutrow {
+    padding-top: 100px;
+}
+
+.aboutimg {
+    width: 350px;
+    height: auto;
+}
+
+.about {
+    color: #E02B70;
+    text-align: center;
+    Font-size: 50px;
+}
+
+.about-body {
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .aboutimg {
+        margin-left: 55px;
+        margin-top: -50px;
+    }
+
+    .about {
+        margin-top: 15px
+    }
+}
+
+/* Sitemap */
+
+.sitemaprow {
+    padding-top: 50px;
+}
+
+.sitemap {
+    color: #E02B70;
+    text-align: center;
+    font-size: 50px;
+}
+
+.sitemap-body {
+    font-size: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .sitemap-right {
+        margin-top: 270px;
+    }
+}
+
+/* Styleguide */
+
+.styleguiderow {
+    padding-top: 50px;
+}
+
+.tint {
+    widows: 200px;
+    height: 100px;
+}
+
+.styleguide {
+    color: #E02B70;
+    text-align: center;
+    font-size: 50px;
+}
+
+.styleguide-body {
+    font-size: 20px;
+}
+
+/* User Persona */
+
+.uprow {
+    padding-top: 100px;
+}
+
+.up {
+    width: 450px;
+    height: auto;
+}
+
+.userpersona {
+    color: #E02B70;
+    text-align: center;
+    font-size: 50px;
+}
+
+.up-body {
+    font-size: 20px;
+}
+
+/* Wireframe */
+
+.wireframerow {
+    padding-top: 100px;
+    align-content: center;
+}
+
+.wres {
+    width: 400px;
+    height: auto;
+}
+
+.caption {
+    color: #E02B70;
+}
+
+.wireframe {
+    color: #E02B70;
+    text-align: center;
+    font-size: 50px;
+}
+
+.wireframe-body {
+    font-size: 20px;
+}
+
+/* Prototype */
+
+.prototyperow {
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.prototype {
+    color: #E02B70;
+    text-align: center;
+    font-size: 50px;
+}
+
+.prototype-body {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Thank  You */
+
+.thankyourow {
+    padding-top: 200px;
+    justify-content: center;
+}
+
+.thankyou {
+    text-align: center;
+    color: #E02B70;
+    font-size: 114px;
+}
+
+.arrowrow{
+    justify-content: center;
+}
+
+.uparrow {
+    width: 200px;
+    height: auto;
+}
+
+.my-resume{
+    justify-content: center;
+}
+
+.resume {
+    color: #66CEE8;
+    font-size: 80px;
+}
